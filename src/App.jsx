@@ -1,11 +1,13 @@
-import Sidebar from "./Sidebar"
+
+import SideBar from './SideBar';
 
 function App() {
   return (
     <div className="flex">
-      <Sidebar/>
+      <SideBar />
+
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
