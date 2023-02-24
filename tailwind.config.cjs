@@ -7,6 +7,8 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
+    mode: 'jit',
+    darkMode: 'class',
     extend: {
       colors: {
         primary: '#202225',
